@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eliminar tu cuenta — Cartola Pro</title>
+<style>
+  :root { --green:#1b5e46; --ink:#1a1a1a; --ink2:#555; --bg:#f7f8f7; --card:#fff; --hl:#eef6f1; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+  header { text-align:center; padding: 24px 0 8px; }
+  header .logo { font-size: 28px; font-weight: 800; color: var(--green); }
+  header .sub { color: var(--ink2); font-size: 14px; margin-top:4px; }
+  section { background: var(--card); border-radius: 14px; padding: 24px 28px; margin-top: 24px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+  h1 { font-size: 22px; color: var(--green); margin: 0 0 12px; }
+  h2 { font-size: 16px; margin: 22px 0 8px; }
+  p, li { font-size: 14.5px; color:#333; }
+  ol, ul { padding-left: 22px; }
+  .hl { background: var(--hl); border-left: 3px solid var(--green); border-radius: 8px; padding: 4px 16px; margin: 12px 0; }
+  a { color: var(--green); }
+  footer { text-align:center; color: var(--ink2); font-size: 13px; margin-top: 28px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">Cartola Pro</div>
+      <div class="sub">Eliminación de cuenta y datos</div>
+    </header>
+    <section>
+      <h1>Cómo eliminar tu cuenta de Cartola Pro</h1>
+      <p>Esta página explica cómo los usuarios de la aplicación <strong>Cartola Pro</strong> (paquete <code>com.cartolapro.app</code>) pueden solicitar la eliminación de su cuenta y de los datos asociados.</p>
+
+      <h2>Opción 1 — Desde la app (recomendado, inmediato)</h2>
+      <ol>
+        <li>Abre <strong>Cartola Pro</strong> e inicia sesión.</li>
+        <li>Ve a la pestaña <strong>Perfil</strong>.</li>
+        <li>Baja hasta <strong>“Eliminar cuenta definitivamente”</strong> y confírmalo.</li>
+      </ol>
+      <div class="hl"><p>Al confirmar, se elimina de forma permanente e inmediata tu cuenta de autenticación y tu documento de datos en la nube (Cloud Firestore).</p></div>
+
+      <h2>Opción 2 — Por correo</h2>
+      <p>Si no puedes acceder a la app, escríbenos a <a href="mailto:my.finances.4pp@gmail.com">my.finances.4pp@gmail.com</a> con el asunto <strong>“Eliminar mi cuenta — Cartola Pro”</strong>, desde el correo asociado a tu cuenta. Procesaremos la solicitud en un plazo máximo de 30 días.</p>
+
+      <h2>Qué datos se eliminan</h2>
+      <ul>
+        <li>Tu cuenta de acceso (Firebase Authentication): correo, nombre y credenciales.</li>
+        <li>Todos tus datos financieros en Cloud Firestore: cuentas, transacciones, categorías, presupuestos, metas de ahorro y movimientos recurrentes.</li>
+        <li>La copia local de tus datos en el dispositivo.</li>
+      </ul>
+
+      <h2>Qué datos se conservan (y por cuánto tiempo)</h2>
+      <ul>
+        <li>No conservamos tus datos financieros tras la eliminación.</li>
+        <li>Registros mínimos de transacciones de compra de suscripciones que Google Play deba conservar por obligaciones legales, contables o antifraude, durante el plazo que exija la ley aplicable. Estos registros los gestiona Google, no Cartola Pro.</li>
+      </ul>
+
+      <p style="margin-top:20px"><a href="./">← Volver a la Política de Privacidad</a></p>
+    </section>
+    <footer>© 2026 Cartola Pro · my.finances.4pp@gmail.com</footer>
+  </div>
+</body>
+</html>
